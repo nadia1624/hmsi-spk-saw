@@ -1,5 +1,5 @@
 <?php 
-$koneksi = mysqli_connect("localhost","root","","spk_aiesec");
+$koneksi = mysqli_connect("localhost","root","","hmsi_saw");
  
 // Check connection
 if (mysqli_connect_errno()){

@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `spk_aiesec`
+-- Database: `hmsi_saw`
 --
 
 -- --------------------------------------------------------
@@ -37,12 +37,14 @@ CREATE TABLE `alternatif` (
 --
 
 INSERT INTO `alternatif` (`id_alternatif`, `nama`) VALUES
-(35, 'Syakina Triyana'),
-(38, 'Ghina Fitri Hidayah'),
-(39, 'Hasya Zikra Alfrena'),
-(40, 'Arieska Kharzani'),
-(41, 'Karin Oktariani Effendi'),
-(42, 'Fayza Zeefania Putri');
+(1, 'Najla Humaira'),
+(2, 'Nadia Deari Hanifah'),
+(3, 'Najla Nadiva'),
+(4, 'Rizka Kurnia Illahi'),
+(5, 'Naufal Adli'),
+(6, 'Azhra Meisa Khairani'),
+(7, 'Rania Shofi Malika');
+
 
 -- --------------------------------------------------------
 
