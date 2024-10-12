@@ -7,14 +7,14 @@ require_once('template/header.php');
 <div class="mb-4">
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Dashboard Sistem Penunjang Keputusan Aiesec</h1>
-        <div class="sidebar-brand-text mx-3"><img src="/assets/img/logo-aiesec.png" style="width: 200px;" alt="aiesec"></div>
+        <h1 class="h3 mb-0 text-gray-800">Dashboard Sistem Penunjang Keputusan HMSI</h1>
+        <div class="sidebar-brand-text mx-3"><img src="/assets/img/logo-HMSI.png" style="width: 200px;" alt="HMSI"></div>
     </div>
 
     <!-- Content Row -->
     <div class="alert alert-success">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        Selamat datang di Sistem Penunjang Keputusan Recruitment AIESEC!
+        Selamat datang di Sistem Penunjang Keputusan Recruitment HMSI!
     </div>
 
     <div class="row">
@@ -50,7 +50,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-kriteria.php" class="text-primary">Buka Data Kriteria Aiesec</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-kriteria.php" class="text-primary">Buka Data Kriteria HMSI</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-cube fa-2x text-gray-300"></i>
@@ -65,7 +65,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-sub-kriteria.php" class="text-primary">Buka Data Sub Kriteria Aiesec</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-sub-kriteria.php" class="text-primary">Buka Data Sub Kriteria HMSI</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-cubes fa-2x text-gray-300"></i>
@@ -80,7 +80,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-alternatif.php" class="text-primary">Buka Data Pendaftar Aiesec</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-alternatif.php" class="text-primary">Buka Data Pendaftar HMSI</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-users fa-2x text-gray-300"></i>

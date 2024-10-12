@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Sistem Pendukung Keputusan AIESEC</title>
+  <title>Sistem Pendukung Keputusan HMSI</title>
 
   <!-- <link href="assets/css/all.min.css" rel="stylesheet" type="text/css"> -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -28,7 +28,7 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-text mx-3">SPK AIESEC</div>
+        <div class="sidebar-brand-text mx-3">SPK HMSI</div>
       </a>
 
       <!-- Divider -->

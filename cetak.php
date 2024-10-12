@@ -4,7 +4,7 @@ require_once('includes/init.php');
 
 <html>
 	<head>
-		<title>Sistem Pendukung Keputusan Recruitment AIESEC</title>
+		<title>Sistem Pendukung Keputusan Recruitment HMSI</title>
 	</head>
 <body onload="window.print();">
 
