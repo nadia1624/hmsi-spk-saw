@@ -14,6 +14,7 @@
   <link rel="icon" type="image/png" href="/assets/img/favicon.ico">
   <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
   <link href="assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
   <script src="assets/vendor/jquery/jquery.min.js"></script>
 
 </head>
@@ -24,7 +25,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark">
+    <ul class="navbar-nav bg-gradient-orange sidebar sidebar-dark">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">

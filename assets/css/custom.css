@@ -1,0 +1,13 @@
+.bg-gradient-orange {
+    background-color: #FFA500;
+    background-image: linear-gradient(180deg, #FF8C00 10%, #FFA500 100%);
+    background-size: cover;
+}
+
+#content-wrapper {
+    background-color: #ffebd1 !important;
+}
+
+.text-primary {
+    color: #FF8C00 !important;
+}

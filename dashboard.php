@@ -8,7 +8,7 @@ require_once('template/header.php');
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Dashboard Sistem Penunjang Keputusan HMSI</h1>
-        <div class="sidebar-brand-text mx-3"><img src="/assets/img/logo-HMSI.png" style="width: 200px;" alt="HMSI"></div>
+        <div class="sidebar-brand-text mx-3"><img src="assets/img/logo-hmsi.png" style="width: 200px;" alt="HMSI"></div>
     </div>
 
     <!-- Content Row -->
