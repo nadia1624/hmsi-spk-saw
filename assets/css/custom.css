@@ -1,7 +1,13 @@
 .bg-gradient-orange {
-    background-color: #FFA500;
-    background-image: linear-gradient(180deg, #FF8C00 10%, #FFA500 100%);
+    background-color: #ea872d ;
+    background-image: linear-gradient(180deg, #ea872d  10%, #ea872d 100%);
     background-size: cover;
+}
+
+.h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Ganti dengan font yang diinginkan */
+    font-weight: bold; /* Jika ingin menebalkan font */
+    color: #333; /* Ubah warna teks jika diperlukan */
 }
 
 #content-wrapper {
@@ -10,4 +16,60 @@
 
 .text-primary {
     color: #FF8C00 !important;
+}
+
+.sidebar .nav-link {
+    color: #ffffff; /* Ganti dengan warna yang diinginkan */
+}
+
+.sidebar .nav-link:hover {
+    color: #000000; /* Ganti dengan warna yang diinginkan saat di-hover */
+}
+
+/* Warna untuk teks sidebar aktif */
+.sidebar .nav-item.active .nav-link {
+    color: #000000; /* Ganti dengan warna teks untuk halaman aktif */
+    font-weight: bold; /* Opsional: membuat teks halaman aktif menjadi bold */
+}
+.alert-success {
+    background-color: #ea872d;
+    color: #fff;
+    border-color: #080808; 
+}
+
+.text-danger {
+    color: #9d796e;
+}
+
+/* Warna header tabel */
+.bg-primary {
+    background-color: #ea872d ; /* Sesuaikan dengan kode warna yang diinginkan */
+    color: #ea872d ; /* Warna teks */
+}
+
+/* Warna border tabel */
+.table-bordered th {
+    background-color: #ea872d ;
+    border: 1px solid #ddd; /* Sesuaikan dengan warna border yang diinginkan */
+}
+
+/* Warna isi tabel */
+tbody tr {
+    background-color: #f9f9f9; /* Warna latar belakang baris */
+    color: #333; /* Warna teks */
+}
+
+/* Warna baris bergantian */
+tbody tr:nth-child(even) {
+    background-color: #e9ecef; /* Warna untuk baris genap */
+}
+.btn-primary {
+    background-color: #ea872d; /* Ganti dengan warna latar belakang yang diinginkan */
+    border-color: #000000;     /* Ganti dengan warna border yang diinginkan */
+    color: #fff;               /* Warna teks */
+}
+
+.btn-primary:hover {
+    background-color: #ea872d; /* Warna saat tombol di-hover */
+    border-color: #000000;
 }
