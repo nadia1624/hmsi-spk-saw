@@ -1,75 +1,291 @@
 .bg-gradient-orange {
-    background-color: #ea872d ;
-    background-image: linear-gradient(180deg, #ea872d  10%, #ea872d 100%);
-    background-size: cover;
+  background-color: #ea872d;
+  background-image: linear-gradient(180deg, #ea872d 10%, #ea872d 100%);
+  background-size: cover;
 }
 
 .h3 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Ganti dengan font yang diinginkan */
-    font-weight: bold; /* Jika ingin menebalkan font */
-    color: #333; /* Ubah warna teks jika diperlukan */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: #333;
 }
 
 #content-wrapper {
-    background-color: #ffebd1 !important;
+  background-color: #ffffff !important;
 }
 
 .text-primary {
-    color: #FF8C00 !important;
+  color: #ffffff !important;
 }
 
 .sidebar .nav-link {
-    color: #ffffff; /* Ganti dengan warna yang diinginkan */
+  color: #ffffff;
 }
 
 .sidebar .nav-link:hover {
-    color: #000000; /* Ganti dengan warna yang diinginkan saat di-hover */
+  color: #000000 !important;
 }
 
-/* Warna untuk teks sidebar aktif */
 .sidebar .nav-item.active .nav-link {
-    color: #000000; /* Ganti dengan warna teks untuk halaman aktif */
-    font-weight: bold; /* Opsional: membuat teks halaman aktif menjadi bold */
+  color: #000000;
+  font-weight: bold;
 }
+
 .alert-success {
-    background-color: #ea872d;
-    color: #fff;
-    border-color: #080808; 
+  background-color: #ea872d;
+  color: #fff;
+  border-color: #080808;
 }
 
 .text-danger {
-    color: #9d796e;
+  color: #9d796e;
 }
 
-/* Warna header tabel */
 .bg-primary {
-    background-color: #ea872d ; /* Sesuaikan dengan kode warna yang diinginkan */
-    color: #ea872d ; /* Warna teks */
+  background-color: #ea872d;
+  color: #ea872d;
 }
 
-/* Warna border tabel */
 .table-bordered th {
-    background-color: #ea872d ;
-    border: 1px solid #ddd; /* Sesuaikan dengan warna border yang diinginkan */
+  background-color: #ea872d;
+  border: 1px solid #ddd;
 }
 
-/* Warna isi tabel */
 tbody tr {
-    background-color: #f9f9f9; /* Warna latar belakang baris */
-    color: #333; /* Warna teks */
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-/* Warna baris bergantian */
 tbody tr:nth-child(even) {
-    background-color: #e9ecef; /* Warna untuk baris genap */
+  background-color: #e9ecef;
 }
+
 .btn-primary {
-    background-color: #ea872d; /* Ganti dengan warna latar belakang yang diinginkan */
-    border-color: #000000;     /* Ganti dengan warna border yang diinginkan */
-    color: #fff;               /* Warna teks */
+  background-color: #ea872d;
+  border-color: #ea872d;
+  color: #fff;
 }
 
 .btn-primary:hover {
-    background-color: #ea872d; /* Warna saat tombol di-hover */
-    border-color: #000000;
+  background-color: #ea872d;
+  border-color: #ea872d;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.card.py-2 {
+  background-color: #ea872d;
+}
+
+.pendaftar {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.text-dashboard {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.text-dashboard:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.btn.btn-primary.no-focus {
+  background-color: #ea872d;
+  border-color: #ea872d;
+  color: #fff;
+  outline: none;
+}
+
+.btn.btn-primary.no-focus:hover {
+  background-color: #d9761f;
+  border-color: #d9761f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn.btn-primary.no-focus:active,
+.btn.btn-primary.no-focus:focus {
+  background-color: #c5681c;
+  border-color: #c5681c;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn.btn-sm.btn-primary {
+  background-color: #ea872d;
+  border-color: #ea872d;
+  color: #fff;
+  outline: none;
+}
+
+.btn.btn-sm.btn-primary:hover {
+  background-color: #d9761f;
+  border-color: #d9761f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn.btn-sm.btn-primary:active,
+.btn.btn-sm.btn-primary:focus {
+  background-color: #c5681c;
+  border-color: #c5681c;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.container-fluid {
+  margin-top: 20px !important;
+  padding-top: 20px !important;
+}
+
+.dark-mode .m-0.font-weight-bold {
+  color: #ffffff;
+}
+
+h6.text-danger {
+  color: #212529 !important;
+}
+
+body.dark-mode h6.text-danger {
+  color: #ffffff !important;
+}
+
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode .sidebar-dark .sidebar {
+  background-color: #333333 !important;
+}
+
+body.dark-mode .nav-link .h3.mb-0.text-gray-800 {
+  color: #ffffff !important;
+}
+
+body.dark-mode .nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+body.dark-mode .sidebar-dark .sidebar .nav-link.active {
+  background-color: #f39c12 !important;
+}
+
+body.dark-mode #content-wrapper {
+  background-color: #181818 !important;
+  color: white !important;
+}
+
+body.dark-mode #content {
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+body.dark-mode .table th,
+body.dark-mode .table td {
+  background-color: #2c2c2c !important;
+  color: white !important;
+}
+
+body.dark-mode .table th {
+  background-color: #e67e22 !important;
+}
+
+body.dark-mode .text-dark {
+  color: white !important;
+}
+
+body.dark-mode h1 {
+  color: white !important;
+}
+
+body.dark-mode label {
+  color: #ffffff;
+}
+
+body.dark-mode .dataTables_info {
+  color: #ffffff;
+}
+
+body.dark-mode .modal-title {
+  color: #ffffff;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.dark-mode .font-weight-bold {
+  color: #333;
+}
+
+body.dark-mode .form-group label {
+  color: #ffffff !important;
+}
+
+body.dark-mode .modal-content {
+  background-color: #333;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+body.dark-mode .card-header {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid #444444 !important;
+}
+
+body.dark-mode .card-footer {
+  background-color: #333333 !important;
+  color: #333333 !important;
+  border-top: 1px solid #333333 !important;
+}
+
+body.dark-mode .card-body {
+  background-color: #333333 !important;
+  color: #333333 !important;
+  border-top: 1px solid #333333 !important;
+}
+
+body.dark-mode .card.py-2 .card-body {
+  background-color: #ea872d !important;
+  color: #ea872d !important;
+  border-top: 1px solid #ea872d !important;
+}
+
+#dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  font-size: 16px;
+  background-color: #d35400 !important;
+  color: #ffffff !important;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body.dark-mode #dark-mode-toggle {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+
+#dark-mode-toggle:hover {
+  background-color: #d35400 !important;
 }

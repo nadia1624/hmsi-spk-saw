@@ -59,19 +59,19 @@ require_once('template/header.php');
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-danger"><i class="fas fa-fw fa-plus"></i> Tambah Data Kriteria</h6>
+        <h6 class="m-0 font-weight-bold text-dark"><i class="fas fa-fw fa-plus"></i> Tambah Data Kriteria</h6>
     </div>
 	
 	<form action="tambah-kriteria.php" method="post">
 		<div class="card-body">
 			<div class="row">
 				<div class="form-group col-md-6">
-					<label class="font-weight-bold">Nama Kriteria</label>
+					<label class="font-weight-boldkriteria">Nama Kriteria</label>
 					<input autocomplete="off" type="text" name="nama" required class="form-control"/>
 				</div>
 				
 				<div class="form-group col-md-6">
-					<label class="font-weight-bold">Type Kriteria</label>
+					<label class="font-weight-boldkriteria">Type Kriteria</label>
 					<select name="type" class="form-control" required>
 						<option value="">--Pilih--</option>
 						<option value="Benefit">Benefit</option>
@@ -80,12 +80,12 @@ require_once('template/header.php');
 				</div>
 				
 				<div class="form-group col-md-6">
-					<label class="font-weight-bold">Bobot Kriteria</label>
+					<label class="font-weight-boldkriteria">Bobot Kriteria</label>
 					<input autocomplete="off" type="number" name="bobot" required step="0.01" class="form-control"/>
 				</div>
 				
 				<div class="form-group col-md-6">
-					<label class="font-weight-bold">Cara Penilaian</label>
+					<label class="font-weight-boldkriteria">Cara Penilaian</label>
 					<select name="ada_pilihan" class="form-control" required>
 						<option value="">--Pilih--</option>
 						<option value="0">Input Langsung</option>
@@ -105,3 +105,4 @@ require_once('template/header.php');
 <?php
 require_once('template/footer.php');
 ?>
+

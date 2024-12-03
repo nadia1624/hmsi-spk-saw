@@ -4,6 +4,7 @@ $page = "Dashboard";
 require_once('template/header.php');
 ?>
 
+
 <div class="mb-4">
     <!-- Page Heading -->
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -29,7 +30,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-danger">
+                            <div class="pendaftar">
                                 Total Jumlah Pendaftar : <?php echo $totalPendaftar; ?> Orang
                             </div>
                         </div>
@@ -50,7 +51,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-kriteria.php" class="text-primary">Buka Data Kriteria HMSI</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-kriteria.php" class="text-dashboard">Buka Data Kriteria HMSI</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-cube fa-2x text-gray-300"></i>
@@ -65,7 +66,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-sub-kriteria.php" class="text-primary">Buka Data Sub Kriteria HMSI</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-sub-kriteria.php" class="text-dashboard">Buka Data Sub Kriteria HMSI</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-cubes fa-2x text-gray-300"></i>
@@ -80,7 +81,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-alternatif.php" class="text-primary">Buka Data Pendaftar HMSI</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-alternatif.php" class="text-dashboard">Buka Data Pendaftar HMSI</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-users fa-2x text-gray-300"></i>
@@ -95,7 +96,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-penilaian.php" class="text-primary">Buka Data Penilaian Pendaftar</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="list-penilaian.php" class="text-dashboard">Buka Data Penilaian Pendaftar</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-edit fa-2x text-gray-300"></i>
@@ -110,7 +111,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="perhitungan.php" class="text-primary">Buka Data Perhitungan Pendaftar</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="perhitungan.php" class="text-dashboard">Buka Data Perhitungan Pendaftar</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-calculator fa-2x text-gray-300"></i>
@@ -125,7 +126,7 @@ require_once('template/header.php');
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="hasil.php" class="text-primary">Buka Data Hasil Akhir Pendaftar</a></div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"><a href="hasil.php" class="text-dashboard">Buka Data Hasil Akhir Pendaftar</a></div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-chart-area fa-2x text-gray-300"></i>
