@@ -20,6 +20,13 @@
 
 .sidebar .nav-link {
   color: #ffffff;
+  font-weight: bold;
+}
+
+
+.sidebar .nav-item .nav-link span {
+  font-size: .95rem !important;
+  display: inline;
 }
 
 .sidebar .nav-link:hover {
@@ -273,7 +280,7 @@ body.dark-mode .card.py-2 .card-body {
   right: 20px;
   z-index: 1000;
   font-size: 16px;
-  background-color: #d35400 !important;
+  background-color: #000000 !important;
   color: #ffffff !important;
   border: none;
   padding: 10px;
@@ -287,5 +294,5 @@ body.dark-mode #dark-mode-toggle {
 }
 
 #dark-mode-toggle:hover {
-  background-color: #d35400 !important;
+  background-color: #000000 !important;
 }
