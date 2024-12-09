@@ -195,11 +195,18 @@ endif;
 															<option value="">--Pilih--</option>
 															<?php
 															$q3 = mysqli_query($koneksi, "SELECT * FROM sub_kriteria WHERE id_kriteria = '$id_kriteria' ORDER BY nilai ASC");
+
 															while ($d3 = mysqli_fetch_array($q3)) {
 															?>
-																<option value="<?= $d3['id_sub_kriteria'] ?>" <?php if ($d3['id_sub_kriteria'] == $d4['nilai']) {
-																													echo "selected";
-																												} ?>><?= $d3['nama'] ?> </option>
+																<option value="<?= $d3['id_sub_kriteria'] ?>"
+																	<?php
+																	if (  $d3['id_sub_kriteria'] == isset($d4['nilai'])) {
+																		echo "selected";
+																	}
+																	?>>
+																	<?= $d3['nama'] ?>
+																</option>
+
 															<?php } ?>
 														</select>
 													<?php
