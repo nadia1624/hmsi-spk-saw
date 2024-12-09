@@ -670,3 +670,21 @@ margin: 0;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+/* Default untuk light mode */
+.guide-section {
+  color: #000; /* Hitam untuk light mode */
+  background-color: #f9f9f9; /* Latar belakang terang */
+}
+
+/* Untuk dark mode */
+@media (prefers-color-scheme: dark-mode) {
+  .card-body .guide-section {
+    color: #fff; /* Putih untuk dark mode */
+  
+  }
+}
+
+.dark-mode .card-body .guide-section {
+  color: white;
+}

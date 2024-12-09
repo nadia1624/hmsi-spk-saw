@@ -65,6 +65,15 @@ endif;
     <h1 class="h3 mb-0 text-gray-800">Data Sub Kriteria</h1>
 </div>
 
+<div class="guide-section">
+    <h4>Petunjuk Pengisian:</h4>
+    <ul>
+    <li>Pastikan Masing-masing Sub Kritria tidak lebih dari 5.</li>
+    <li>Inputkan Nama Sub Kriteria.</li>
+    <li>Untuk nilai Sub Kriteria berentang dari 1-5. </li>
+    </ul>
+    </div>
+
 <?php if(!empty($sts)): ?>
 	<div class="alert alert-info">
 		<?php foreach($sts as $st): ?>

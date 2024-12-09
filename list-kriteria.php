@@ -37,8 +37,15 @@ endif;
 	<div class="card-header py-3">
 		<h6 class="m-0 font-weight-bold"><i class="fa fa-table"></i> Daftar Data Kriteria</h6>
 	</div>
-
 	<div class="card-body">
+	<div class="card-header py-3">
+                        <h4>Petunjuk Pengisian:</h4>
+                        <ul>
+                        <li>Pastikan Seluruh Kriteria memiliki bobot kriteria 100% atau 1</li>
+                        <li>Untuk Type Kriteria, Benefit merupakan Kriteria yang semakin besar nilainya, semakin diutamakan dalam perhitungan SAW. Contoh: Keuntungan, keuntungan penjualan, atau nilai performa. Serta Cost merupakan Kriteria yang semakin kecil nilainya, semakin diutamakan dalam perhitungan SAW. Contoh: Biaya, waktu, atau jumlah kerugian.</li>
+                        <li>Untuk cara penilaian dapat menginputkan langsung dengan memilih <strong>Input Langsung</strong>atau membuat sub kriteria dengan memilih <strong>Pilihan Sub-Kriteria</strong></li>
+                    </ul>
+                    </div>
 		<div class="table-responsive">
 			<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 				<thead class="bg-primary text-white">

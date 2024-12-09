@@ -90,45 +90,45 @@
 
         <!-- Dark Mode Script -->
         <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const toggleButton = document.getElementById('dark-mode-toggle');
-                const darkModeClass = 'dark-mode';
-                const localStorageKey = 'theme';
+document.addEventListener('DOMContentLoaded', () => {
+    // Dark mode toggle logic
+    const toggleButton = document.getElementById('dark-mode-toggle');
+    const darkModeClass = 'dark-mode';
+    const localStorageKey = 'theme';
 
-                const currentMode = localStorage.getItem(localStorageKey);
-                if (currentMode === 'dark') {
-                    document.body.classList.add(darkModeClass);
-                    toggleButton.textContent = 'Light Mode';
-                } else {
-                    toggleButton.textContent = 'Dark Mode';
-                }
+    // Set initial mode based on localStorage
+    const currentMode = localStorage.getItem(localStorageKey);
+    if (currentMode === 'dark') {
+        document.body.classList.add(darkModeClass);
+        toggleButton.textContent = 'Light Mode';
+    } else {
+        toggleButton.textContent = 'Dark Mode';
+    }
 
-                toggleButton.addEventListener('click', () => {
-                    document.body.classList.toggle(darkModeClass);
-                    const newMode = document.body.classList.contains(darkModeClass) ? 'dark' : 'light';
-                    localStorage.setItem(localStorageKey, newMode);
-                    toggleButton.textContent = newMode === 'dark' ? 'Light Mode' : 'Dark Mode';
-                });
-            });
-
-            // Sidebar toggle
-            document.addEventListener('DOMContentLoaded', () => {
-        // Sidebar toggle logic
-        const nav = document.querySelector('.n-nav');
-        const openButton = document.getElementById('open');
-        const closeButton = document.getElementById('close');
-
-        // Open sidebar
-        openButton.addEventListener('click', () => {
-            nav.classList.add('show');
-        });
-
-        // Close sidebar
-        closeButton.addEventListener('click', () => {
-            nav.classList.remove('show');
-        });
+    // Toggle dark mode on button click
+    toggleButton.addEventListener('click', () => {
+        document.body.classList.toggle(darkModeClass);
+        const newMode = document.body.classList.contains(darkModeClass) ? 'dark' : 'light';
+        localStorage.setItem(localStorageKey, newMode);
+        toggleButton.textContent = newMode === 'dark' ? 'Light Mode' : 'Dark Mode';
     });
-    
+
+    // Sidebar toggle logic
+    const nav = document.querySelector('.n-nav');
+    const openButton = document.getElementById('open');
+    const closeButton = document.getElementById('close');
+
+    // Open sidebar
+    openButton.addEventListener('click', () => {
+        nav.classList.add('show');
+    });
+
+    // Close sidebar
+    closeButton.addEventListener('click', () => {
+        nav.classList.remove('show');
+    });
+});
+
         </script>
 
    
