@@ -626,7 +626,7 @@ margin: 0;
   }
 }
 
-.n-nav.show {
+.show {
   transform: translateX(0);
 }
 

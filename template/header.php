@@ -21,7 +21,7 @@
     <div id="wrapper">
 
         <!-- Navigation -->
-        <ul class="n-nav">
+        <ul class="n-nav show">
             
             <div>
                 <h1>SPK HMSI</h1>
