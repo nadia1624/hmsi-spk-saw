@@ -200,7 +200,7 @@ endif;
 															?>
 																<option value="<?= $d3['id_sub_kriteria'] ?>"
 																	<?php
-																	if (  $d3['id_sub_kriteria'] == isset($d4['nilai'])) {
+																	if ($d3['id_sub_kriteria'] == ($d4['nilai'] ?? null)) {
 																		echo "selected";
 																	}
 																	?>>
